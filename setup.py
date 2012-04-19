@@ -24,7 +24,7 @@ def get_requires():
     '''If python > 2.7, argparse and OrderedDict will be included. Otherwsise
     we need external packages.
     '''
-    requires = ['requests']
+    requires = ['requests==0.2.4']
     try:
         import argparse
     except ImportError:

@@ -4,6 +4,7 @@
 
     Contains the Repository class and some helper functions.
 '''
+from __future__ import with_statement
 import os
 import sys
 import base64
